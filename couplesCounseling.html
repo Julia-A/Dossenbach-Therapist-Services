@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couples Counseling</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="couplesCounseling.css">
+</head>
+<body>
+    <header>
+        <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="https://assets.zyrosite.com/dossenbach0a5yk/psychhelp-mp8oMJzQ1GSKxE3p.svg" alt="PsychHelp logo">
+                  </a>
+    
+                  <button class="navbar-toggler" 
+                          type="button" 
+                          data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
+                          aria-expanded="false" 
+                          aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse ms-4" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item ms-3">
+                        <a class="nav-link active" 
+                           aria-current="page" 
+                           href="landingPage.html">Home</a>
+                      </li>
+                      <li class="nav-item ms-3">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" 
+                            href="#" role="button" 
+                            data-bs-toggle="dropdown" 
+                            aria-expanded="false">
+                          Services
+                        </a>
+                        <ul class="dropdown-menu px-3">
+                          <li><a class="dropdown-item px-0" href="individualTherapy.html">Individual Therapy</a></li>
+                          <li><a class="dropdown-item px-0" href="couplesCounseling.html">Couples Counselling</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item ms-3">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+
+              <div class="banner px-5">
+                <h5 class="small-title text-center mt-5 pt-5">O2</h5>
+                <h1 class="banner-title text-center mt-3 mb-5 pb-5">Couples Counseling</h1>
+
+                <div class="container">
+                  <div class="row row-cols-1 row-cols-lg-2 gap-5">
+                    <div class="img-col col px-0 me-4">
+                      <img src="https://cdn.zyrosite.com/cdn-cgi/image/format=auto,w=600,h=600,fit=crop/cdn-ecommerce/store_01GS3QSFZ2J1X0ENETAN6Q80KZ%2Fassets%2F1676236960427-Capture-2023-02-12-231847.png"
+                           class="w-100"     
+                           alt="A couple hugging and smiling after a session">
+                    </div>
+
+                    <div class="text-col col px-0">
+                      <h3 class="fs-1">Couples Counseling</h3>
+                      <p class="dollars my-4">$40.00</p>
+
+                      <div class="wrapper p-0 mb-4 d-flex align-items-center">
+                        <span class="minus">-</span>
+                        <span class="num">1</span>
+                        <span class="plus">+</span>
+                      </div>
+
+                      <script>
+                        const plus = document.querySelector(".plus"),
+                              minus = document.querySelector(".minus"),
+                              num = document.querySelector(".num");
+
+                              let a = 1;
+
+                              plus.addEventListener("click", ()=>{
+                                a++;
+                                // a = (a < 10) ? a : a;
+                                num.innerText = a;
+                                console.log(a);
+                              });
+
+                              minus.addEventListener("click", ()=>{
+                                if(a>1){
+                                  a--;
+                                  num.innerText = a;
+                                }
+                              });
+                      </script>
+
+                      <button class="btn btn-outline-dark mt-2 mb-5">ADD TO BAG</button>
+                      <p>Relationship therapy doesn't always necessarily mean there's an ongoing crisis taking place between two people. In fact, many couples opt for counseling in order to meet each other in a safe, non-judgemental space as equals and strengthen their relationship and friendship overall. In relationship therapy, the focus is on creating a safe environment where everyone has the right to openly communicate and share their feelings without the fear of being attacked or judged. Counseling can last anywhere from a few weeks to years, depending on the situation of the couple.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </header>
+
+    <main>
+      <!-- SECTION ONE -->
+      <section class="sec-one py-5 my-5">
+        <h5 class="small-title text-center mt-4">LEARN</h5>
+        <h3 class="display-3 text-center mb-5">What is it good for?</h3>
+
+        <div class="container w-75 mx-auto">
+          <div class="row row-cols-1 row-cols-md-2 gap-5 flex-md-nowrap row-gap-5">
+            <div class="cols sec-one__content">
+              <h5 class="fs-4">Roles in the relationship</h5>
+              <p class="w-75">Sometimes the roles in the relationship can be unequally distributed, or even realized in the first place, leading to built-up tension and unhappiness.</p>
+              <p class="w-75">In couple counseling, we work to understand how and why both parties view the different roles, and how it affects the relationship overall.  </p>
+            </div>
+
+            <div class="cols sec-one__content">
+              <h5 class="fs-4">Beliefs and values</h5>
+              <p class="w-75">Oftentimes, the beliefs and values people have stem from their childhood and past experiences, and when they don't align within the relationship, miscommunication can happen.</p>
+              <p class="w-75">Together with a therapist, couples can work towards gaining a clear perspective into each others' beliefs and values.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION TWO -->
+      <section class="sec-two">
+        <div class="container row row-cols-1 row-cols-md-2">
+          <div class="d-flex flex-column justify-content-center align-items-center">
+            <div class="w-75 mx-auto text-center">
+              <h1 class="display-2 text-center text-light">Have any<br>questions?</h1>
+              <p class="text-light">If you have any questions about the therapies, feel free to contact us.</p>
+              <button class="btn btn-outline-light">CONTACT US</button>
+            </div>
+          </div>
+
+          <div>
+            <img 
+                class="w-100"
+                src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=875,fit=crop/dossenbach0a5yk/service4-Yg2X79DKWxiWLDk0.png"
+                alt="">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-5 row row-cols-1 row-cols-md-2 mx-0">
+      <div class="d-flex flex-column justify-content-center align-items-center">
+          <div class="w-25">
+            <img
+            class="my-2 w-100"
+              src="https://assets.zyrosite.com/dossenbach0a5yk/psychhelp2-mnlEWnOOawSG723y.svg"
+              alt="">
+          </div>
+          <p class="text-light">Ester S. Dossenbach, therapist</p>
+      </div>
+
+      <div class="d-flex flex-wrap justify-content-center align-items-center gap-5 text-center my-md-0 my-5">
+        <div>
+          <h5 class="text-light fs-4">My office</h5>
+          <p class="text-light fs-6">3721 Single Street<br>Quincy, MA 02169</p>
+        </div>
+        <div>
+          <h5 class="text-light fs-4">Contacts</h5>
+          <p class="text-light fs-6">email@example.com<br>+33445677654</p>
+        </div>
+      </div>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

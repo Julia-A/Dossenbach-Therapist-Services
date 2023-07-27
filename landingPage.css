@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* font-family: 'Libre Caslon Display', serif;
+font-family: 'Nunito', sans-serif; */
+
+header{
+    background: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/dossenbach0a5yk/main2-A0xK3w5v20ulGZKB.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #4a4a43;
+}
+header h1
+{
+    font-size: 7.5rem;
+}
+h1, .card-title
+{
+    font-family: 'Libre Caslon Display', serif;
+    color: #4a4a43;
+}
+h5
+{
+    font-family: 'Libre Caslon Display', serif;
+    color: #4a4a43;
+}
+h3
+{
+    font-family: 'Libre Caslon Display', serif;
+    color: #4a4a43;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    color: #4a4a43;
+}
+.card
+{
+    border: none;
+}
+.card-img-top
+{
+    width: 23%;
+}
+.card-text
+{
+    font-size: 0.9rem;
+}
+
+/* HEADER */
+.navbar-collapse
+{
+    font-family: 'Nunito', sans-serif;
+}
+.navbar
+{
+    padding-left: 10rem;
+    padding-top: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+  .navbar
+{
+    padding-left: 0;
+    padding-top: 0.5rem;
+}
+}
+.nav-link:hover
+{
+    border-bottom: 1px solid rgb(29, 30, 32);
+    padding-bottom: 2px;
+}
+.dropdown-item:hover
+{
+    border-bottom: 1px solid rgb(29, 30, 32);
+    padding-bottom: 2px;
+    background-color: transparent;
+}
+.psycho
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.86rem;
+    color: rgb(74, 74, 67);
+}
+@media (max-width: 768px)
+{
+    .banner-container
+    {
+        align-items: center;
+    }
+    .ester
+    {
+        font-size: 3rem;
+    }
+}
+.btn
+{
+    border-radius: 0;
+    padding: 0.6rem 2.5rem;
+}
+/* SECTION ONE */
+@media (max-width: 992px)
+{
+    .sec-two .col
+    {
+        width: 80%;
+        margin-inline: auto;
+    }
+    .sec-two .box
+    {
+        margin-top: 2rem;
+    }
+}
+
+/* SECTION TWO */
+.sec-two
+{
+    background: rgb(243, 243, 242);
+}
+/* SECTION THREE */
+@media (max-width: 992px)
+{
+    .sec-three .dropdown-item:hover
+    {
+        flex-wrap: wrap;
+    }
+}
+
+/* SECTION FOUR */
+.sec-four
+{
+    background: #878780;
+}
+@media (min-width: 992px)
+{
+    .sec-four
+    {
+        padding-inline: 7rem;
+    }
+}
+
+/* SECTION FIVE */
+.sec-five
+{
+    background: rgb(243, 243, 242)
+}
+.sec-five .col h3
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    color: rgb(29, 30, 32);
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer
+{
+    background: rgb(74,74,67);
+}

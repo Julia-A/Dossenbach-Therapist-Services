@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+/* font-family: 'Libre Caslon Display', serif;
+font-family: 'Nunito', sans-serif; */
+
+.banner-title
+{
+    font-family: 'Libre Caslon Display', serif;
+    color: #4a4a43;
+    font-size: 7.5rem;
+}
+h1,h3,h5
+{
+    font-family: 'Libre Caslon Display', serif;
+    color: #4a4a43;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(74, 74, 67);
+}
+.btn
+{
+    border-radius: 0;
+    padding: 0.6rem 2.5rem;
+}
+
+/* HEADER */
+.header
+{
+    background: rgb(243, 243, 242);
+}
+.navbar-collapse
+{
+    font-family: 'Nunito', sans-serif;
+}
+.navbar
+{
+    padding-left: 10rem;
+    padding-top: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+  .navbar
+{
+    padding-left: 0;
+    padding-top: 0.5rem;
+}
+}
+.nav-link:hover
+{
+    border-bottom: 1px solid rgb(29, 30, 32);
+    padding-bottom: 2px;
+}
+.dropdown-item:hover
+{
+    border-bottom: 1px solid rgb(29, 30, 32);
+    padding-bottom: 2px;
+    background-color: transparent;
+}
+
+/* BANNER */
+.small-title
+{
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.86rem;
+    color: rgb(74, 74, 67);
+    font-weight: 300;
+}
+@media (min-width: 768px) {
+    .text-col
+    {
+        width: 42%;
+        margin-inline: auto;
+    }
+}
+.text-col .dollars
+{
+    font-size: 1.1rem;
+}
+.wrapper
+{
+    width: 146px;
+    height: 48px;
+    background: #fff;
+    border: 1px solid #dadce0;
+}
+.wrapper span
+{
+    width: 100%;
+    font-size: 1.2rem;
+    margin-inline: auto;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.wrapper .num
+{
+    margin: 0;
+    border-inline: 1px solid #dadce0;
+    pointer-events: none;
+}
+
+/* SECTION ONE */
+.sec-one
+{
+    background: white;
+    padding: 3rem;
+}
+.sec-one__content
+{
+    font-size: 14px;
+}
+
+/* SECTION TWO */
+.sec-two
+{
+    background: #878780;
+}
+@media (min-width: 992px)
+{
+    .sec-two
+    {
+        padding-inline: 7rem;
+    }
+}
+
+/* FOOTER */
+footer
+{
+    background: rgb(74,74,67);
+}
