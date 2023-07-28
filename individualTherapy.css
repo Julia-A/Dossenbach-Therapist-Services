@@ -57,6 +57,7 @@ p{
     background-color: transparent;
 }
 
+
 /* BANNER */
 .small-title
 {
@@ -70,6 +71,13 @@ p{
     {
         width: 42%;
         margin-inline: auto;
+    }
+}
+@media (max-width: 768px)
+{
+    .banner-title
+    {
+        font-size: 3rem;
     }
 }
 .text-col .dollars
